@@ -1,0 +1,122 @@
+
+.new-wrapper__signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80vh ;
+  width: 80vh;
+  background-color: #e1d1d1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border-radius: 0 20px 20px 0;
+}
+.parent_container{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(45deg,transparent 14%, #4be346 15%, #4be346 20%, transparent 21%, transparent 79%, #4be346  80%, #4be346 85%, transparent 86%),linear-gradient(135deg,transparent 14%, #4be346 15%, #4be346 20%, transparent 21%, transparent 79%, #4be346  80%, #4be346 85%, transparent 86%), radial-gradient(transparent 14%, #4be346 15%, #4be346 25%, transparent 26%);
+  background-size: 5em 5em;
+  background-color: #ffffff;
+  opacity: 1;
+  background-size:30px 30px;
+  height: 100vh;
+}
+.child_container{
+  width: 100vh;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  margin-top: 10vh;
+  border-radius: 20px;
+  
+}
+.c2{
+  width: 100vh;
+      height: 80vh;
+      background-image: url("https://images.pexels.com/photos/2695392/pexels-photo-2695392.jpeg?auto=compress&cs=tinysrgb&w=600");
+      border-radius: 20px 0 0 20px;
+      background-repeat: no-repeat;
+}
+
+
+.new-form {
+  background-color: #f2e5e5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0,0.9); 
+  width: 40dvh;
+  /* border-radius: 50px; */
+}
+
+.new-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #0c0a0a;
+  
+}
+
+input {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #e1d1d1;
+  border-radius: 6px;
+  font-size: 16px;
+  
+}
+.ddown{
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #e1d1d1;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.new-error {
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #0e0e0e;
+  font-size: 14px;
+}
+
+Link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+Link:hover {
+  text-decoration: underline;
+}

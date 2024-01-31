@@ -1,0 +1,75 @@
+.backk{
+  height: 100vh;
+  width: 100%;
+  background:
+      repeating-linear-gradient( 45deg,#0000 calc(-650%/13) calc(50%/13),#9697bc 0 calc(100%/13),
+      #0000 0 calc(150%/13),#9697bc 0 calc(200%/13),
+      #0000 0 calc(250%/13),#9697bc 0 calc(300%/13)),repeating-linear-gradient( 45deg,#0000 calc(-650%/13) calc(50%/13),#9697bc 0 calc(100%/13),
+      #0000 0 calc(150%/13),#9697bc 0 calc(200%/13),
+      #0000 0 calc(250%/13),#9697bc 0 calc(300%/13)) 32px 32px,
+      repeating-linear-gradient(-45deg,#0000 calc(-650%/13) calc(50%/13),#9697bc 0 calc(100%/13),
+      #0000 0 calc(150%/13),#9697bc 0 calc(200%/13),
+      #0000 0 calc(250%/13),#9697bc 0 calc(300%/13)),repeating-linear-gradient(-45deg,#0000 calc(-650%/13) calc(50%/13),#9697bc 0 calc(100%/13),
+      #0000 0 calc(150%/13),#9697bc 0 calc(200%/13),
+      #0000 0 calc(250%/13),#9697bc 0 calc(300%/13)) 32px 32px #aab4b7;
+background-size: 64px 64px;
+
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90%;
+    width: 100%;
+  }
+  
+  
+  .input{
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    padding: 10px;
+    -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+-moz-box-shadow: 3px 3px 10px 3px #dddddd;
+box-shadow: 3px 3px 10px 3px #dddddd;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .contact textarea {
+    resize: none;
+  }
+  
+  .contact .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .butn{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact .btn:hover {
+    background-color: #0056b3;
+  }
